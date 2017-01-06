@@ -10,6 +10,8 @@ body {
 
 /* Start My FrameWork*/
 
+
+
 .info {
     color:#a20025
 }
@@ -23,10 +25,12 @@ body {
     border: 2px solid transparent !important;
 }
 
+
+
 .job .about {
-    
-    font-weight: bold;
-    margin-top:50px;
+    font-size: 20px;
+    position: relative;
+    margin-top:75px;
 }
 
 .my-photo {
@@ -474,7 +478,7 @@ header .header-content .header-content-inner p {
   }
   header .header-content .header-content-inner h1 {
     font-size: 65px;
-    margin-top: -30px;
+    margin-top: -65px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;

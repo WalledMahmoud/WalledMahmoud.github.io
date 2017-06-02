@@ -611,10 +611,6 @@ ul.portfolio li.active {
     position: relative;
 }
 
-.portfolio .item:hover {
-     filter: grayscale(0.4);
-    -webkit-filter:grayscale(0.4)
-}
 
 .portfolio .item img {
     width: 100%;

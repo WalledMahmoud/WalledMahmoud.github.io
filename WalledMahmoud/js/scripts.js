@@ -167,7 +167,7 @@
 	   		 
         /* Testimonial Carousel/Slider */
 
-        $(".testimonial-carousel-list").owlCarousel({
+        $(".Quotes-carousel-list").owlCarousel({
             items: 1,
             autoPlay: true,
             stopOnHover: false,

@@ -208,7 +208,7 @@ fieldset {
 }
 
 .button-style:active:before {
-	color: #17954c;
+	color: #fff;
 }
 
 .button-style-icon:before {

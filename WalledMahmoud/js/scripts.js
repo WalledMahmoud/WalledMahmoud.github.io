@@ -35,9 +35,13 @@
 
         
        /* Preloader */
-		
         $(window).on('load', function() {
           $('body').addClass('loaded');
+
+          $('html, body').css({
+            'overflow': 'hidden',
+            'height': '100%'
+            });
         });
 		
 		
@@ -222,13 +226,10 @@
     */
 
 
-     // My Scroll
-    $(window).load(function(){
-
-         $("html").niceScroll({
-            cursorcolor: '#E74C3C',
-            cursorwidth: '9px'
-        });
-    });
+    // My Scroll
+    $("html").niceScroll({ 
+        cursorcolor: '#E74C3C',
+        cursorwidth: '9px'
+    })
 
 })(jQuery);

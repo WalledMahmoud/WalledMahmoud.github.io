@@ -801,13 +801,13 @@ ul.portfolio li.active {
 }
 
 
-/* Testimonial */
+/* Quotes */
 
-.testimonial-section {
+.Quotes-section {
     background: #F9F9F9;
 }
 
-.testimonial-carousel-list {
+.Quotes-carousel-list {
     padding: 30px;
     background-color: #fff;
     border-radius: 4px;
@@ -815,22 +815,22 @@ ul.portfolio li.active {
     transition: all 0.3s ease-in-out;
 }
 
-.testimonial-carousel-list:hover {
+.Quotes-carousel-list:hover {
     box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
     top: -5px;
 }
 
-.testimonial-word {
+.Quotes-word {
     padding: 0px 100px;
 }
 
-.testimonial-word img {
+.Quotes-word img {
 	margin: 0 auto;
     max-width: 160px;
     border-radius: 50%
 }
 
-.testimonial-word h2 {
+.Quotes-word h2 {
     font-size: 12px;
     text-transform: uppercase;
 	color: #E74C3C;
@@ -839,7 +839,7 @@ ul.portfolio li.active {
     margin: 20px 0px;
 }
 
-.testimonial-word p {
+.Quotes-word p {
     line-height: 25px;
 }
 

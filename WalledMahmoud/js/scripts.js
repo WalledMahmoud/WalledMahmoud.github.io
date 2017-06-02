@@ -223,10 +223,12 @@
 
 
      // My Scroll
-    $("html").niceScroll({
-        cursorcolor: '#E74C3C',
-        cursorwidth: '8px'
+    $(window).load(function(){
+
+         $("html").niceScroll({
+            cursorcolor: '#E74C3C',
+            cursorwidth: '9px'
+        });
     });
-    
 
 })(jQuery);

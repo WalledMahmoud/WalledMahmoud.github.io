@@ -456,7 +456,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #000;
+    background: #E74C3C;
 }
 
 .navigation-background .logo {

@@ -22,7 +22,7 @@
    9. Magnific Popup
   10. Quotes Carousel/Slider
   11. Statistics Counter
-  12. Google Map
+  12. niceScroll
  
 
 */
@@ -222,5 +222,11 @@
     */
 
 
+     // My Scroll
+    $("html").niceScroll({
+        cursorcolor: '#E74C3C',
+        cursorwidth: '8px'
+    });
+    
 
-   })(jQuery);
+})(jQuery);

@@ -235,7 +235,7 @@ fieldset {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #f8f8f8;
+    background: #fff;
     z-index: 999;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

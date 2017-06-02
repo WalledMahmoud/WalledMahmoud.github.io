@@ -39,12 +39,13 @@
           $('body').addClass('loaded');
         });
 		
-        $(window).load(function() {
-
-            ("body").css("overflow", "hidden");
-
+        
+        // My Scroll
+        $("html").niceScroll({ 
+            cursorcolor: '#E74C3C',
+            cursorwidth: '9px'
         });
-		
+
        /* Smooth Scroll */
         $('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
@@ -223,12 +224,5 @@
             $(".bg-dark").fadeOut();
         });
     */
-
-
-    // My Scroll
-    $("html").niceScroll({ 
-        cursorcolor: '#E74C3C',
-        cursorwidth: '9px'
-    })
 
 })(jQuery);

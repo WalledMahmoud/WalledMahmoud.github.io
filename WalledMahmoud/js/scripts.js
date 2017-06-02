@@ -37,16 +37,15 @@
        /* Preloader */
         $(window).on('load', function() {
           $('body').addClass('loaded');
-
-          $('html, body').css({
-            'overflow': 'hidden',
-            'height': '100%'
-            });
         });
 		
+        $(window).load(function() {
+
+            ("body").css("overflow", "hidden");
+
+        });
 		
        /* Smooth Scroll */
-
         $('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({

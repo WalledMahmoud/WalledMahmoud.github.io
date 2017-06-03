@@ -111,11 +111,9 @@
         $(window).load(function(){
         $(".typing").typed({
 
-            strings: ["I am An Engineer.", "I am A Web Designer.", "I am A Web Developer", "I am A Freelancer."],    /* You can change the home section typing text from                                                                             here and do not use "&" use "and" */
-            typeSpeed: 80,
-            loop: true,
-            shuffle: false
-
+            strings: ["I am An Engineer.", "I am A Web Designer.", "I am A Web Developer.", "I am A Freelancer."],    /* You can change the home section typing text from                                                                             here and do not use "&" use "and" */
+            typeSpeed: 70,
+            loop: true
           });
          });
         

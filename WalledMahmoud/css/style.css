@@ -426,7 +426,7 @@ body.loaded #preloader{
 .navigation-menu .navbar-nav li a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1px;
     padding: 30px 15px;
     -webkit-transition: .3s;
@@ -558,9 +558,17 @@ body.loaded #preloader{
 }
 
 .about-me p {
-	padding: 20px;
-    font-size: 20px;
-    line-height: 1.8
+	padding: 40px;
+    font-size: 23px;
+    line-height: 2
+}
+
+.fa-book {
+    margin-right: 15px;
+}
+
+.fa-graduation-cap {
+    color:#222 !important
 }
 
 
@@ -945,6 +953,11 @@ ul.portfolio li.active {
   top: -6px;
   filter: grayscale(0);
   -webkit-filter: grayscale(0)
+}
+
+.services-section .services-detail:hover .skill {
+    color:#E74C3C;
+    font-weight: bold;
 }
 
 .services-section .services-detail .fa {

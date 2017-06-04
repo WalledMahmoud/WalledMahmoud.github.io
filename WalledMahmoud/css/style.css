@@ -959,9 +959,9 @@ ul.portfolio li.active {
 .services-section .services-detail:hover .skill {
     color:#E74C3C;
     font-weight: bold;
-    display: inline-block !important;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .services-section .services-detail .fa {

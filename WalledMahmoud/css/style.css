@@ -962,7 +962,6 @@ ul.portfolio li.active {
     display: inline-block !important;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .services-section .services-detail .fa {

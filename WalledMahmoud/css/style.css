@@ -960,7 +960,9 @@ ul.portfolio li.active {
     color:#E74C3C;
     font-weight: bold;
     display: inline-block !important;
-    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-section .services-detail .fa {

@@ -959,7 +959,7 @@ ul.portfolio li.active {
 .services-section .services-detail:hover .skill {
     color:#E74C3C;
     font-weight: bold;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }

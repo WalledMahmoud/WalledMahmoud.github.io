@@ -944,7 +944,7 @@ ul.portfolio li.active {
   padding: 60px 40px 60px 40px;
   margin-top: 30px;
   filter: grayscale(1);
-  -webkit-filter: grayscale(1)
+  -webkit-filter: grayscale(1);
 }
 
 .services-section .services-detail:hover {
@@ -958,6 +958,7 @@ ul.portfolio li.active {
 .services-section .services-detail:hover .skill {
     color:#E74C3C;
     font-weight: bold;
+    display: inline-block !important;
 }
 
 .services-section .services-detail .fa {

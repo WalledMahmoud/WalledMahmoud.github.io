@@ -2,7 +2,7 @@
 
     Template Name : Walled Mahmoud Portfolio 
     Author : Walled Mahmoud
-    Website : http://www.uipasta.com/	
+    Website :https://walledmahmoud.github.io/WalledMahmoud/	
 	
 */
 
@@ -111,7 +111,7 @@
         $(window).load(function(){
         $(".typing").typed({
 
-            strings: ["I am An Engineer.", "I am A Web Designer.", "I am A Web Developer.", "I am A Freelancer."],    /* You can change the home section typing text from                                                                             here and do not use "&" use "and" */
+            strings: ["I am An Engineer.", "I am A WordPress Developer.", "I am A Front-End Developer.", "I am A Freelancer."],    /* You can change the home section typing text from                                                                             here and do not use "&" use "and" */
             typeSpeed: 70,
             loop: true
           });
